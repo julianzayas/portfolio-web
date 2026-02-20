@@ -1,3 +1,210 @@
-<script>
-    window.location.href = "en-construccion.html";
-</script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formación y Certificaciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tu CSS principal -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 60px auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #555;
+            margin-bottom: 50px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+            background: #fff;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #f4f4f4;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .card p {
+            margin: 0 0 15px 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 14px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.85rem;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Formación y Certificaciones</h1>
+    <p class="subtitle">
+        Certificaciones técnicas y formación profesional obtenida.
+    </p>
+
+    <div class="grid">
+
+        <!-- 1 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="Microsoft AZ900">
+            <div class="card-content">
+                <h3>Microsoft - AZ900</h3>
+                <p>Microsoft Azure Fundamentals</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/12beD4keUiNflAFEpRtjCgwrJbR5MjQ8b?usp=drive_link" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="SAP ABAP">
+            <div class="card-content">
+                <h3>Axigma - SAP ABAP</h3>
+                <p>Desarrollo en SAP ABAP</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/1GqZA0BO0v2IlGR4-c7rCE9M422bULOYS?usp=drive_link" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="Data Analytics">
+            <div class="card-content">
+                <h3>Coderhouse - Data Analytics</h3>
+                <p>Análisis de datos</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/1B_vbEN2Kt21OeX2mIOlkcVZBnD3AAdBH?usp=sharing" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="Testing QA">
+            <div class="card-content">
+                <h3>Coderhouse - Testing & QA</h3>
+                <p>Quality Assurance y Testing</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/1teF-CeU-hXPPepk1dwKU27GHtah03FBv?usp=drive_link" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="Azure DevOps">
+            <div class="card-content">
+                <h3>Código Facilito - Azure DevOps</h3>
+                <p>Integración y DevOps en Azure</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/1GqZA0BO0v2IlGR4-c7rCE9M422bULOYS?usp=drive_link" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="C# Visual Studio">
+            <div class="card-content">
+                <h3>Udemy - Visual Studio 2022 C#</h3>
+                <p>Desarrollo en C#</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/1pXCCOwTQ58GSTkgXrq3dF5WRKLYCTSi4?usp=drive_link" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="Programación Web">
+            <div class="card-content">
+                <h3>Egg - Programación Web</h3>
+                <p>Desarrollo Web Full Stack</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/1O6J1QFptUny_owRj8kVZZJK4xL5hvuEG?usp=drive_link" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="card">
+            <img src="../img/placeholder.jpg" alt="React JS">
+            <div class="card-content">
+                <h3>Argentina Programa 4.0 - React JS</h3>
+                <p>Desarrollo Frontend con React</p>
+                <a class="btn" href="https://drive.google.com/drive/folders/1B7dBAEIqs-7umATN8IKCLqp2kNsiBu9L?usp=drive_link" target="_blank">
+                    Ver certificado
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

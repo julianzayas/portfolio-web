@@ -20,8 +20,6 @@ body {
     padding: 0 20px;
 }
 
-
-
 /* NAVBAR */
 .navbar {
     background: #ffffff;
@@ -326,5 +324,138 @@ nav a.active {
 @media (max-width: 768px) {
     .cert-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* =========================
+   PROYECTOS SECTION
+========================= */
+
+.projects-section {
+    padding: 80px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #666;
+    font-size: 1rem;
+}
+
+/* =========================
+   PROJECT CARD
+========================= */
+
+.project-card {
+    margin-bottom: 40px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    padding: 35px;
+    transition: all 0.3s ease;
+    border-left: 4px solid #24292e; /* detalle elegante tipo GitHub */
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   PROJECT CONTENT
+========================= */
+
+.project-content h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.project-description {
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+/* =========================
+   TECH TAGS
+========================= */
+
+.project-tech {
+    margin-bottom: 25px;
+}
+
+.project-tech span {
+    display: inline-block;
+    background: #f2f2f2;
+    padding: 7px 14px;
+    margin: 5px 8px 8px 0;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #333;
+    transition: background 0.2s ease;
+}
+
+.project-tech span:hover {
+    background: #e0e0e0;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.project-links a {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background: #24292e;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #000000;
+}
+
+.btn-secondary {
+    background: #0077ff;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background: #005ed6;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+    .projects-section {
+        padding: 60px 15px;
+    }
+
+    .project-card {
+        padding: 25px;
+    }
+
+    .project-content h2 {
+        font-size: 1.3rem;
     }
 }

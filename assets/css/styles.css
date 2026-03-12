@@ -459,3 +459,89 @@ nav a.active {
         font-size: 1.3rem;
     }
 }
+
+/* =========================
+   EXPERIENCIA
+========================= */
+
+.experience-section {
+    padding: 80px 20px;
+}
+
+/* FILA PRINCIPAL */
+
+.experience-row {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.experience-text {
+    flex: 1;
+}
+
+.experience-text h2 {
+    margin-bottom: 15px;
+}
+
+.experience-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* IMAGEN */
+
+.experience-image {
+    flex: 1;
+}
+
+.experience-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* VIDEO */
+
+.experience-video {
+    margin-bottom: 60px;
+}
+
+.experience-video h2 {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* RESUMEN */
+
+.experience-summary h2 {
+    margin-bottom: 20px;
+}
+
+.experience-summary p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .experience-row {
+        flex-direction: column;
+    }
+
+}
